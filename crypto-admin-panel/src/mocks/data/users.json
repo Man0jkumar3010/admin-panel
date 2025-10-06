@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Alice Johnson",
+    "email": "alice@example.com",
+    "kyc_status": "Approved",
+    "balance": 15230.45,
+    "last_login": "2025-10-03T08:24:00Z",
+    "country": "US",
+    "joined_date": "2024-01-15T00:00:00Z"
+  },
+  {
+    "id": 2,
+    "name": "Bob Smith",
+    "email": "bob@example.com",
+    "kyc_status": "Pending",
+    "balance": 340.22,
+    "last_login": "2025-10-04T14:40:00Z",
+    "country": "India",
+    "joined_date": "2024-03-22T00:00:00Z"
+  },
+  {
+    "id": 3,
+    "name": "Carol Martinez",
+    "email": "carol@example.com",
+    "kyc_status": "Rejected",
+    "balance": 8750.10,
+    "last_login": "2025-10-02T16:30:00Z",
+    "country": "Spain",
+    "joined_date": "2024-02-10T00:00:00Z"
+  },
+  {
+    "id": 4,
+    "name": "David Lee",
+    "email": "david@example.com",
+    "kyc_status": "Approved",
+    "balance": 25600.80,
+    "last_login": "2025-10-05T09:15:00Z",
+    "country": "Singapore",
+    "joined_date": "2023-11-05T00:00:00Z"
+  },
+  {
+    "id": 5,
+    "name": "Emma Wilson",
+    "email": "emma@example.com",
+    "kyc_status": "Pending",
+    "balance": 1200.50,
+    "last_login": "2025-10-01T11:20:00Z",
+    "country": "UK",
+    "joined_date": "2024-05-18T00:00:00Z"
+  },
+  {
+    "id": 6,
+    "name": "Frank Chen",
+    "email": "frank@example.com",
+    "kyc_status": "Approved",
+    "balance": 45000.00,
+    "last_login": "2025-10-05T10:30:00Z",
+    "country": "China",
+    "joined_date": "2023-08-12T00:00:00Z"
+  },
+    {
+    "id": 7,
+    "name": "Alice Johnson",
+    "email": "alice@example.com",
+    "kyc_status": "Approved",
+    "balance": 15230.45,
+    "last_login": "2025-10-03T08:24:00Z",
+    "country": "US",
+    "joined_date": "2024-01-15T00:00:00Z"
+  },
+  {
+    "id": 8,
+    "name": "Bob Smith",
+    "email": "bob@example.com",
+    "kyc_status": "Pending",
+    "balance": 340.22,
+    "last_login": "2025-10-04T14:40:00Z",
+    "country": "India",
+    "joined_date": "2024-03-22T00:00:00Z"
+  },
+  {
+    "id": 9,
+    "name": "Carol Martinez",
+    "email": "carol@example.com",
+    "kyc_status": "Rejected",
+    "balance": 8750.10,
+    "last_login": "2025-10-02T16:30:00Z",
+    "country": "Spain",
+    "joined_date": "2024-02-10T00:00:00Z"
+  },
+  {
+    "id": 10,
+    "name": "David Lee",
+    "email": "david@example.com",
+    "kyc_status": "Approved",
+    "balance": 25600.80,
+    "last_login": "2025-10-05T09:15:00Z",
+    "country": "Singapore",
+    "joined_date": "2023-11-05T00:00:00Z"
+  },
+  {
+    "id": 11,
+    "name": "Emma Wilson",
+    "email": "emma@example.com",
+    "kyc_status": "Pending",
+    "balance": 1200.50,
+    "last_login": "2025-10-01T11:20:00Z",
+    "country": "UK",
+    "joined_date": "2024-05-18T00:00:00Z"
+  },
+  {
+    "id": 12,
+    "name": "Frank Chen",
+    "email": "frank@example.com",
+    "kyc_status": "Approved",
+    "balance": 45000.00,
+    "last_login": "2025-10-05T10:30:00Z",
+    "country": "China",
+    "joined_date": "2023-08-12T00:00:00Z"
+  }
+]

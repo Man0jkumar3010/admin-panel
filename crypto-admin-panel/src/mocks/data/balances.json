@@ -1,0 +1,69 @@
+{
+    "1": [
+        {
+            "asset": "BTC",
+            "amount": 0.45,
+            "usd_value": 13500
+        },
+        {
+            "asset": "ETH",
+            "amount": 2.3,
+            "usd_value": 4600
+        },
+        {
+            "asset": "USDT",
+            "amount": 15230.45,
+            "usd_value": 15230.45
+        }
+    ],
+    "2": [
+        {
+            "asset": "BTC",
+            "amount": 0.01,
+            "usd_value": 300
+        },
+        {
+            "asset": "USDT",
+            "amount": 340.22,
+            "usd_value": 340.22
+        }
+    ],
+    "3": [
+        {
+            "asset": "ETH",
+            "amount": 4.2,
+            "usd_value": 8400
+        },
+        {
+            "asset": "USDT",
+            "amount": 350.10,
+            "usd_value": 350.10
+        }
+    ],
+    "4": [
+        {
+            "asset": "BTC",
+            "amount": 0.85,
+            "usd_value": 25500
+        },
+        {
+            "asset": "ETH",
+            "amount": 0.05,
+            "usd_value": 100
+        }
+    ],
+    "5": [
+        {
+            "asset": "USDT",
+            "amount": 1200.50,
+            "usd_value": 1200.50
+        }
+    ],
+    "6": [
+        {
+            "asset": "BTC",
+            "amount": 1.5,
+            "usd_value": 45000
+        }
+    ]
+}

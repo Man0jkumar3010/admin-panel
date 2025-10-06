@@ -1,0 +1,94 @@
+{
+    "1": [
+        {
+            "id": 101,
+            "date": "2025-10-03T10:15:00Z",
+            "type": "Deposit",
+            "asset": "USDT",
+            "amount": 2500,
+            "status": "Completed"
+        },
+        {
+            "id": 102,
+            "date": "2025-10-03T12:30:00Z",
+            "type": "Withdraw",
+            "asset": "BTC",
+            "amount": 0.02,
+            "status": "Pending"
+        },
+        {
+            "id": 103,
+            "date": "2025-10-02T08:45:00Z",
+            "type": "Deposit",
+            "asset": "ETH",
+            "amount": 1.5,
+            "status": "Completed"
+        }
+    ],
+    "2": [
+        {
+            "id": 201,
+            "date": "2025-10-04T09:20:00Z",
+            "type": "Deposit",
+            "asset": "USDT",
+            "amount": 340.22,
+            "status": "Completed"
+        }
+    ],
+    "3": [
+        {
+            "id": 301,
+            "date": "2025-10-02T14:10:00Z",
+            "type": "Withdraw",
+            "asset": "ETH",
+            "amount": 2.0,
+            "status": "Completed"
+        },
+        {
+            "id": 302,
+            "date": "2025-10-01T16:30:00Z",
+            "type": "Deposit",
+            "asset": "ETH",
+            "amount": 6.2,
+            "status": "Completed"
+        }
+    ],
+    "4": [
+        {
+            "id": 401,
+            "date": "2025-10-05T08:00:00Z",
+            "type": "Deposit",
+            "asset": "BTC",
+            "amount": 0.5,
+            "status": "Completed"
+        },
+        {
+            "id": 402,
+            "date": "2025-10-04T11:20:00Z",
+            "type": "Withdraw",
+            "asset": "BTC",
+            "amount": 0.15,
+            "status": "Completed"
+        }
+    ],
+    "5": [
+        {
+            "id": 501,
+            "date": "2025-10-01T10:30:00Z",
+            "type": "Deposit",
+            "asset": "USDT",
+            "amount": 1200.50,
+            "status": "Completed"
+        }
+    ],
+    "6": [
+        {
+            "id": 601,
+            "date": "2025-10-05T09:45:00Z",
+            "type": "Deposit",
+            "asset": "BTC",
+            "amount": 1.5,
+            "status": "Completed"
+        }
+    ]
+}
