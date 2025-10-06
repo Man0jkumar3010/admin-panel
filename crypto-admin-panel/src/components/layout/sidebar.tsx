@@ -5,7 +5,7 @@ import { usePathname } from 'next/navigation'
 import { User, Activity, CreditCard, LogOut, X } from 'lucide-react'
 import { cn } from '@/lib/utils'
 import { Button } from '@/components/ui/button'
-import { useState } from 'react'
+import { useUIStore } from '@/store/ui-store'
 
 const menuItems = [
   { id: 'users', label: 'Users', icon: User, href: '/users' },
@@ -15,21 +15,23 @@ const menuItems = [
 
 export function Sidebar() {
   const pathname = usePathname()
-  const [mobileOpen, setMobileOpen] = useState(false)
+  const { sidebarOpen, setSidebarOpen } = useUIStore()
 
   return (
     <>
-      {mobileOpen && (
+      {/* Mobile overlay */}
+      {sidebarOpen && (
         <div
           className="fixed inset-0 bg-black/50 z-40 lg:hidden"
-          onClick={() => setMobileOpen(false)}
+          onClick={() => setSidebarOpen(false)}
         />
       )}
 
+      {/* Sidebar */}
       <aside
         className={cn(
           'fixed top-0 left-0 z-40 h-screen w-64 bg-gray-900 text-white transition-transform',
-          mobileOpen ? '-translate-x-full' : '-translate-x-full',
+          sidebarOpen ? 'translate-x-0' : '-translate-x-full',
           'lg:translate-x-0'
         )}
       >
@@ -38,7 +40,7 @@ export function Sidebar() {
           <Button
             variant="ghost"
             size="icon"
-            onClick={() => setMobileOpen(false)}
+            onClick={() => setSidebarOpen(false)}
             className="lg:hidden text-white hover:bg-gray-800"
           >
             <X className="h-6 w-6" />
@@ -52,7 +54,7 @@ export function Sidebar() {
               <Link
                 key={item.id}
                 href={item.href}
-                onClick={() => setMobileOpen(false)}
+                onClick={() => setSidebarOpen(false)}
                 className={cn(
                   'w-full flex items-center gap-3 px-4 py-3 rounded-lg transition-colors',
                   isActive
@@ -79,10 +81,4 @@ export function Sidebar() {
       </aside>
     </>
   )
-}
-
-// Export function to toggle sidebar from header
-export function useSidebarToggle() {
-  const [mobileOpen, setMobileOpen] = useState(false)
-  return { mobileOpen, setMobileOpen }
 }

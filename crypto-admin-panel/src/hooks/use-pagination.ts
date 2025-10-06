@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 
 interface UsePaginationProps<T> {
   data: T[]
@@ -36,6 +36,10 @@ export function usePagination<T>({ data, itemsPerPage = 10 }: UsePaginationProps
   const resetPagination = () => {
     setCurrentPage(1)
   }
+
+  useEffect(() => {
+  setCurrentPage(1)
+}, [data.length])
 
   return {
     currentPage,

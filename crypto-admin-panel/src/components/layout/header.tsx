@@ -2,19 +2,18 @@
 
 import { Menu } from 'lucide-react'
 import { Button } from '@/components/ui/button'
+import { useUIStore } from '@/store/ui-store'
 
-interface HeaderProps {
-  onMenuClick?: () => void
-}
+export function Header() {
+  const { setSidebarOpen } = useUIStore()
 
-export function Header({ onMenuClick }: HeaderProps) {
   return (
     <header className="sticky top-0 z-30 bg-white border-b border-gray-200">
       <div className="flex items-center justify-between px-4 py-3">
         <Button
           variant="ghost"
           size="icon"
-          onClick={onMenuClick}
+          onClick={() => setSidebarOpen(true)}
           className="lg:hidden"
         >
           <Menu className="h-6 w-6" />
