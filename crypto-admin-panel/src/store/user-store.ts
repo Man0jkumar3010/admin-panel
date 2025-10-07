@@ -22,8 +22,6 @@ interface UserState {
 }
 
 export const useUserStore = create<UserState>()(
-  devtools(
-    persist(
       (set, get) => ({
         users: [],
         selectedUsers: new Set(),
@@ -115,10 +113,4 @@ export const useUserStore = create<UserState>()(
           }
         },
       }),
-      {
-        name: 'user-store',
-        partialize: (state) => ({ users: state.users }),
-      }
-    )
-  )
 )
